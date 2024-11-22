@@ -74,16 +74,6 @@ df3=data[data["cluster"]==3]
 
 df4=data[data["cluster"]==4]
 
-df0.head()
-
-df1.head()
-
-df2.head()
-
-df3.head()
-
-df4.head()
-
 plt.scatter(df0["Annual Income (k$)"],df0["Spending Score (1-100)"],c="red",label="cluster0")
 plt.scatter(df1["Annual Income (k$)"],df1["Spending Score (1-100)"],c="blue",label="cluster1")
 plt.scatter(df2["Annual Income (k$)"],df2["Spending Score (1-100)"],c="green",label="cluster2")
